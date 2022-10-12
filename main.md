@@ -10,7 +10,7 @@ Depending on your credentials, the "zz" will change. Once logging in, it will pr
 ![Image](remotelyconnecting.png)
 ## 3. Trying Some Commands
 After connecting you can try some of these commands: `cd`, `ls`, `pwd`, `mkdir`, and `cp`. There are more commands than this. The `cd` command will change the directory, the `ls` will list the files in your directory, `pwd` will print the path of the directory, and `cp` will copy files from one loaction in your directory to another. 
-![Image](commands.png)
+![Image](sc2.png)
 ## 4. Moving Files with `scp`
 To move files using `scp`, first create a file on your own computer, not the remote one. After creating the file, enter the following into your terminal:
 ```
