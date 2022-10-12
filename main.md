@@ -6,7 +6,7 @@ After downloading VScode, open a terminal and enter the following in there:
 ```
 ssh cs15lfa22zz@ieng6.ucsd.edu
 ```
-Depending on your credentials, the "zz" will change. Once logging in, it will prompt you with warning message asking if you want to connect to the server. Type "yes" and it will then prompt you to enter your password. After entering your password, you will get the following screen showing that you have connected to the remote server. 
+Depending on your credentials, the "zz" will change. Once logging in, it will prompt you with warning message asking if you want to connect to the server. Type "yes" and it will then prompt you to enter your password. After entering your password, you will get the following screen showing that you have connected to the remote server. If you were to somehow enter the incorrect password, the server would prompt you to re-enter your password again. IF you keep mistyping your password, then it will prevent you from logging in and you will have to restart the process. 
 ![Image](remotelyconnecting.png)
 ## 3. Trying Some Commands
 After connecting you can try some of these commands: `cd`, `ls`, `pwd`, `mkdir`, and `cp`. There are more commands than this. The `cd` command will change the directory, the `ls` will list the files in your directory, `pwd` will print the path of the directory, and `cp` will copy files from one loaction in your directory to another. 
