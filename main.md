@@ -19,7 +19,7 @@ scp [file] cs15lfa22zz@ieng6.ucsd.edu:~/
 Once again, the login credentials will be dependent on the user. It will then prompt you to enter your password again, so type it in. After this connect to the ssh server and type `ls` command. You will see your file in the directory. 
 ![Image](commands.png)
 ## 5. Setting an SSH Key
-On your own computer, (logout of the ssh server by typing `exit`) type a command called `ssh-keygen`. It will then prompt you to type where you want the passkey to be saved. After doing that, it will ask you to enter a passkey which could be anything. Then retype it. After doing all this it will look something like this. 
+On your own computer, (logout of the ssh server by typing `exit`) type a command called `ssh-keygen`. It will then prompt you to type where you want the passkey to be saved. After doing that, it will ask you to enter a passkey which could be anything. Then retype it. The purpose of this is to speed up the log in process. As you may have noticed, logging in to the ssh server takes a while, so setting a passkey speeds the process. After doing all this it will look something like this. 
 ![Image](passkey.png)
 ## 6. Omptimizing Remote Running 
 To omptimize remote running, you can add commands right after entering the log-in info in double quotes like this:
